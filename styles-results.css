@@ -9,22 +9,23 @@
     --card-bg-color: #1D1C19;
 }
 
-/* body.blue{
-    --card-color-primary: #338Af3;
-    --card-title-color-primary: #338Af3; 
-    --bg: url(./assets/backgrounds/bg-blue.svg);
-    --card-bg-color: #202024;
-
-    
+#back-to-home {
+    width: 200px;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 6px;
+    border: none;
+    background-color: #047C3F;
+    color: #FFFFFF;
+    transition: transform 0.3s;
 }
 
-body.green{
-    --card-color-primary: #047C3F;
-    --card-title-color-primary: #047C3F; 
-    --bg: url(./assets/backgrounds/bg-green.svg);
-    --card-bg-color: #1A1F1B;
+#back-to-home:hover {
+    animation: appear 0.3s;
+    border: 1px solid #F7DD43;
+    transform: scale (1.5);
 
-} */
+}
 
 ul {
     list-style: none;
@@ -36,7 +37,7 @@ body {
     background-size: cover;
 }
 
-#app {
+#app-results {
     width: fit-content;
     margin: auto;
     padding-top: 52px;
@@ -45,7 +46,7 @@ body {
     align-items: center;
 }
 
-#cards{
+#game-results {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -55,7 +56,7 @@ header {
     margin-bottom: 63px;
 }
 
-.card {
+.card-results {
     padding: 32px 23px;
     text-align: center;
     background: var(--card-bg-color);
@@ -63,7 +64,7 @@ header {
     border-radius: 6px;
 }
 
-.card h2 {
+.card-results h2 {
     display: flex;
     gap: 16px;
     justify-content: center;
@@ -81,69 +82,50 @@ body * {
     font-family: 'Roboto', sans-serif;
 }
 
-.card h2 span {
+.card-results h2 span {
     color: #E1E1E6;
     font-size: 14px;
     text-transform: uppercase;
 }
-.card ul {
+.card-results ul {
     display: flex;
     flex-direction: column;
     gap: 24px;
     width: 270px;
 }
 
-.card ul li {
+.card-results ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.card ul li + li {
+.card-results ul li + li {
     padding-top: 24px;
     border-top: 1px solid #323238;
 }
 
-.card ul li strong {
+.card-results ul li strong {
     font-weight: 900;
     font-height: 125%;
     font-size: 36px;
     color: #E1E1E6;
 }
 
-.card h2:hover,
-.card ul li strong:hover,
-.card ul li img:hover{
+.card-results h2:hover,
+.card-results ul li strong:hover,
+.card-results ul li img:hover{
     transform: scale(1.1);
 }
-.card h2,
-.card ul li strong,
-.card ul li img{
+.card-results h2,
+.card-results ul li strong,
+.card-results ul li img{
     transition: transform 0.1s;
 }
 
-.card {
+.card-results {
     animation: appear 0.2s;
 }
-
-#results-button {
-    width: 200px;
-    height: 30px;
-    margin: 10px 0px 10px 0px;
-    border-radius: 6px;
-    border: none;
-    background-color: #047C3F;
-    color: #FFFFFF;
-    transition: transform 0.3s;
-}
-
-#results-button:hover {
-    animation: appear 0.3s;
-    border: 1px solid #F7DD43;
-    transform: scale (1.5);
-
-}
-
 
 @keyframes appear {
     0% {
@@ -155,7 +137,7 @@ body * {
 }
 
 @media (min-width: 700px){
-    #cards{
+    #game-results{
         max-width: 670px;
         flex-direction: row;
         flex-wrap: wrap;
