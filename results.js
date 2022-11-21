@@ -27,7 +27,7 @@ document.querySelector("#game-results").innerHTML =
    )+
    createCard("21/11", "segunda", 
    createGame("england",6,2,"iran")+
-   createGame("senegal",0,1,"netherlands")+
+   createGame("senegal",0,2,"netherlands")+
    createGame("united-states",0,0,"wales")
    )+
 
