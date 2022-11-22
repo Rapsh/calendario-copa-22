@@ -105,7 +105,7 @@ document.querySelector("#cards").innerHTML =
     createGame("ghana", "10:00", "uruguay") +
     createGame("serbia", "13:00", "switzerland") +
     createGame("cameroon", "16:00", "brazil") 
-    ) 
+    ) +
 
 // FAZER TITLE DE OITAVAS
 
@@ -127,7 +127,7 @@ createCard("03/12", "sabado",
     createCard("06/12", "terça",
     createGame("none", "12:00", "none") +
     createGame("none", "16:00", "none") 
-    ) 
+    ) +
 
 // FAZER TITLE DE QUARTAS
 
@@ -139,7 +139,7 @@ createCard("03/12", "sabado",
     createCard("10/12", "sábado",
     createGame("none", "12:00", "none") +
     createGame("none", "16:00", "none") 
-    ) 
+    ) +
 
 // FAZER TITLE DE SEMI
 
@@ -149,13 +149,13 @@ createCard("03/12", "sabado",
     ) +
     createCard("14/12", "quarta",
     createGame("none", "16:00", "none") 
-    ) 
+    ) +
 
 // FAZER TITLE DE TERCEIRO
 
     createCard("17/12", "sábado",
     createGame("none", "12:00", "none") 
-    )
+    ) +
 // FAZER TITLE DE FINAL
 
     createCard("18/12", "domingo",
