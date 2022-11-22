@@ -106,21 +106,17 @@ body * {
 
 .cardFinal ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 24px;
-    width: 270px;
+    justify-content: center;
 }
 
-.card ul li {
+.card ul li, .cardFinal ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.cardFinal ul li {
-    display: flex;
-    align-items: center;
-}
 
 .card ul li + li, .cardFinal ul li + li {
     padding-top: 24px;
