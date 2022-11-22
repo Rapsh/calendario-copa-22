@@ -61,6 +61,9 @@ header {
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
+    width: 615px;
+    justify-content: center;
+    display: grid;
 }
 
 .card h2, .phase h2, .cardFinal h2 {
