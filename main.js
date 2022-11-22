@@ -31,6 +31,19 @@ function createCard(date, day, games) {
 }
 
 
+function createCardFinals(date, day, games) {
+    delay = delay + 0.1;
+    return `
+        <div class="card" style="animation-delay: ${delay}s">
+        <h2>${date}<span>${day}</span></h2>
+        <ul>
+            ${games}
+        </ul>
+    </div> 
+    `
+}
+
+
 
 document.querySelector("#cards").innerHTML = 
    createCard("20/11", "domingo", createGame("qatar","13:00","ecuador")
@@ -166,13 +179,13 @@ createPhase("semi-final")+
 createPhase("disputa de terceiro lugar")+
 
 
-    createCard("17/12", "sábado",
+createCardFinals("17/12", "sábado",
     createGame("none", "12:00", "none") 
     ) +
 
 createPhase("final")+
 
 
-    createCard("18/12", "domingo",
+createCardFinals("18/12", "domingo",
     createGame("none", "12:00", "none") 
     )
