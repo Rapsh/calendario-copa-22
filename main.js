@@ -9,6 +9,15 @@ function createGame(player1, hour, player2) {
 }
 let delay = -0.1;
 
+function createPhase(phase) {
+    delay = delay + 0.1;
+    return `
+    <div class="phase" style="animation-delay: ${delay}s">
+    <h2>${phase}</h2>
+    </div>
+    `
+}
+
 function createCard(date, day, games) {
     delay = delay + 0.1;
     return `
@@ -108,7 +117,7 @@ document.querySelector("#cards").innerHTML =
     ) +
 
 
-createCard("oitavas de final")+
+createPhase("oitavas de final")+
 
 createCard("03/12", "sabado",
     createGame("none", "12:00", "none") +
@@ -131,7 +140,7 @@ createCard("03/12", "sabado",
     ) +
 
 
-createCard("quartas de final")+
+createPhase("quartas de final")+
 
     createCard("09/12", "sexta",
     createGame("none", "12:00", "none") +
@@ -143,7 +152,7 @@ createCard("quartas de final")+
     createGame("none", "16:00", "none") 
     ) +
 
-createCard("semi-final")+
+createPhase("semi-final")+
 
 
 
@@ -154,14 +163,14 @@ createCard("semi-final")+
     createGame("none", "16:00", "none") 
     ) +
 
-createCard("disputa de terceiro lugar")+
+createPhase("disputa de terceiro lugar")+
 
 
     createCard("17/12", "sábado",
     createGame("none", "12:00", "none") 
     ) +
 
-createCard("final")+
+createPhase("final")+
 
 
     createCard("18/12", "domingo",
