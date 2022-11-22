@@ -77,6 +77,10 @@ header {
     color: #F7DD43;
 }
 
+.phase {
+    width: auto;
+}
+
 body * {
     font-family: 'Roboto', sans-serif;
 }
