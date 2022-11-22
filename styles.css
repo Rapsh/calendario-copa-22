@@ -97,20 +97,20 @@ body * {
     font-size: 14px;
     text-transform: uppercase;
 }
-.card ul {
+.card ul, .cardFinal ul {
     display: flex;
     flex-direction: column;
     gap: 24px;
     width: 270px;
 }
 
-.card ul li {
+.card ul li, .cardFinal ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.card ul li + li {
+.card ul li + li, .cardFinal ul li + li {
     padding-top: 24px;
     border-top: 1px solid #323238;
 }
