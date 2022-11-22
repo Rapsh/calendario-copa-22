@@ -106,7 +106,7 @@ body * {
 
 .cardFinal ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 24px;
     justify-content: center;
 }
