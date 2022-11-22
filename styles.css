@@ -104,10 +104,15 @@ body * {
     width: 270px;
 }
 
-.card ul li, .cardFinal ul li {
+.card ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.cardFinal ul li {
+    display: flex;
+    align-items: center;
 }
 
 .card ul li + li, .cardFinal ul li + li {
