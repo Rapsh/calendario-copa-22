@@ -49,7 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -62,9 +62,6 @@ header {
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
-    width: 415px;
-    justify-content: center;
-    display: grid;
 }
 
 .card h2, .phase h2, .cardFinal h2 {
@@ -83,12 +80,12 @@ header {
 }
 
 .phase {
-    width: 415px;
-    height: 60px;
+    width: 100%;
+    height: auto;
 }
 
 .cardFinal {
-    width: 615px;
+    width: 270px;
     height: auto;
 }
 
@@ -147,6 +144,10 @@ body * {
 
 .card {
     animation: appear 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 447px;
 }
 
 #results-button {
