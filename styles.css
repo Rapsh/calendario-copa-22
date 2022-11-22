@@ -49,6 +49,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    justify-content: center;
 }
 
 header {
@@ -61,7 +62,7 @@ header {
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 6px;
-    width: 615px;
+    width: 415px;
     justify-content: center;
     display: grid;
 }
@@ -82,7 +83,7 @@ header {
 }
 
 .phase {
-    width: 615px;
+    width: 415px;
     height: 60px;
 }
 
