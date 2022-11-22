@@ -85,14 +85,14 @@ header {
 
 .cardFinal {
     width: 615px;
-    height: 60px;
+    height: auto;
 }
 
 body * {
     font-family: 'Roboto', sans-serif;
 }
 
-.card h2 span {
+.card h2 span, .cardFinals h2 span {
     color: #E1E1E6;
     font-size: 14px;
     text-transform: uppercase;
