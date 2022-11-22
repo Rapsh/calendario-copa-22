@@ -97,7 +97,14 @@ body * {
     font-size: 14px;
     text-transform: uppercase;
 }
-.card ul, .cardFinal ul {
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 270px;
+}
+
+.cardFinal ul {
     display: flex;
     flex-direction: column;
     gap: 24px;
