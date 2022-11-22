@@ -78,7 +78,8 @@ header {
 }
 
 .phase {
-    width: auto;
+    width: 615px;
+    height: 60px;
 }
 
 body * {
