@@ -75,6 +75,7 @@ header {
     margin-inline: auto;
     margin-bottom: 53px;
     color: #F7DD43;
+    text-transform: uppercase;
 }
 
 .phase {
