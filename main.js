@@ -34,7 +34,7 @@ function createCard(date, day, games) {
 function createCardFinals(date, day, games) {
     delay = delay + 0.1;
     return `
-        <div class="card" style="animation-delay: ${delay}s">
+        <div class="cardFinal" style="animation-delay: ${delay}s">
         <h2>${date}<span>${day}</span></h2>
         <ul>
             ${games}
