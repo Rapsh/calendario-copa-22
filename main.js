@@ -167,8 +167,6 @@ createPhase("quartas de final")+
 
 createPhase("semi-final")+
 
-
-
     createCard("13/12", "terça",
     createGame("none", "16:00", "none") 
     ) +
@@ -178,13 +176,11 @@ createPhase("semi-final")+
 
 createPhase("disputa de terceiro lugar")+
 
-
 createCardFinals("17/12", "sábado",
     createGame("none", "12:00", "none") 
     ) +
 
 createPhase("final")+
-
 
 createCardFinals("18/12", "domingo",
     createGame("none", "12:00", "none") 
