@@ -73,7 +73,7 @@ document.querySelector("#game-results").innerHTML =
     )+
     
    createCard("28/11", "segunda", 
-    createGame('cameroon', 2,3, 'serbia') +
+    createGame('cameroon', 3,3, 'serbia') +
     createGame('southk', 0,0, 'ghana') +
     createGame('brazil', 0,0, 'switzerland') +
     createGame('portugal', 0,0,  'uruguay') 
