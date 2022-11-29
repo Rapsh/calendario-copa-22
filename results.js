@@ -83,7 +83,7 @@ document.querySelector("#game-results").innerHTML =
     createGame('ecuador', 1,2,  'senegal') +
     createGame('netherlands', 2,0,  'qatar') +
     createGame('iran', 0,1,  'united-states') +
-    createGame('wales', 0,2,  'england') 
+    createGame('wales', 0,3,  'england') 
     )+
 
    createCard("30/11", "quarta", 
