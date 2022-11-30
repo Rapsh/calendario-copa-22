@@ -88,7 +88,7 @@ document.querySelector("#game-results").innerHTML =
 
    createCard("30/11", "quarta", 
     createGame('tunisia', 1,0,  'france') +
-    createGame('australia', 0,0, 'denmark') +
+    createGame('australia', 1,0, 'denmark') +
     createGame('poland', 0,0,  'argentina') +
     createGame('saudi-arabia', 0,0,  'mexico') 
     )+
