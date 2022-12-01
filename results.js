@@ -96,8 +96,8 @@ document.querySelector("#game-results").innerHTML =
    createCard("01/12", "quinta", 
     createGame('croatia', 0,0,  'belgium') +
     createGame('canada', 1,2, 'morocco') +
-    createGame('japan', 0,1,  'spain') +
-    createGame('costa-rica', 0,1,  'germany') 
+    createGame('japan', 2,1,  'spain') +
+    createGame('costa-rica', 2,1,  'germany') 
     )+
 
    createCard("02/12", "sexta",
