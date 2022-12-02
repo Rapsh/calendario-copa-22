@@ -103,6 +103,6 @@ document.querySelector("#game-results").innerHTML =
    createCard("02/12", "sexta",
     createGame("southk", 2,1,  "portugal") +
     createGame("ghana", 0,2,  "uruguay") +
-    createGame("serbia", 1,1,  "switzerland") +
-    createGame("cameroon", 0,0,  "brazil") 
+    createGame("serbia", 2,3,  "switzerland") +
+    createGame("cameroon", 1,0,  "brazil") 
     ) 
