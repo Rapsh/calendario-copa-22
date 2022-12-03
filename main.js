@@ -133,23 +133,23 @@ document.querySelector("#cards").innerHTML =
 createPhase("oitavas de final")+
 
 createCard("03/12", "sabado",
-    createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("netherlands", "12:00", "united-states") +
+    createGame("argentina", "16:00", "australia") 
     ) +
 
     createCard("04/12", "domingo",
-    createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("france", "12:00", "poland") +
+    createGame("england", "16:00", "senegal") 
     ) +
 
     createCard("05/12", "segunda",
-    createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("japan", "12:00", "croatia") +
+    createGame("brazil", "16:00", "southk") 
     ) +
 
     createCard("06/12", "terça",
-    createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("morocco", "12:00", "spain") +
+    createGame("portugal", "16:00", "switzerland") 
     ) +
 
 

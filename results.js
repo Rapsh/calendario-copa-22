@@ -105,4 +105,21 @@ document.querySelector("#game-results").innerHTML =
     createGame("ghana", 0,2,  "uruguay") +
     createGame("serbia", 2,3,  "switzerland") +
     createGame("cameroon", 1,0,  "brazil") 
+    )+
+
+    createCard("03/12", "sabado",
+    createGame("netherlands", 0,0,  "united-states") +
+    createGame("argentina", 0,0,  "australia") 
+    )+
+    createCard("04/12", "domingo",
+    createGame("france", 0,0,  "poland") +
+    createGame("england", 0,0,  "senegal") 
+    )+ 
+    createCard("05/12", "segunda",
+    createGame("japan", 0,0,  "croatia") +
+    createGame("brazil", 0,0, "southk") 
+    )+
+    createCard("06/12", "terça",
+    createGame("morocco", 0,0,  "spain") +
+    createGame("portugal", 0,0, "switzerland") 
     ) 
