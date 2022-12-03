@@ -108,7 +108,7 @@ document.querySelector("#game-results").innerHTML =
     )+
 
     createCard("03/12", "sabado",
-    createGame("netherlands", 2,0,  "united-states") +
+    createGame("netherlands", 2,1,  "united-states") +
     createGame("argentina", 0,0,  "australia") 
     )+
     createCard("04/12", "domingo",
