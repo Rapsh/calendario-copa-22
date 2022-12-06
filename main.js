@@ -156,13 +156,13 @@ createCard("03/12", "sabado",
 createPhase("quartas de final")+
 
     createCard("09/12", "sexta",
-    createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("croatia", "12:00", "brazil") +
+    createGame("netherland", "16:00", "argentina") 
     ) +
 
     createCard("10/12", "sábado",
     createGame("none", "12:00", "none") +
-    createGame("none", "16:00", "none") 
+    createGame("france", "16:00", "england") 
     ) +
 
 createPhase("semi-final")+
