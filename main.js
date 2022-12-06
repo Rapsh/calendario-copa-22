@@ -161,7 +161,7 @@ createPhase("quartas de final")+
     ) +
 
     createCard("10/12", "sábado",
-    createGame("none", "12:00", "none") +
+    createGame("morocco", "12:00", "portugal") +
     createGame("france", "16:00", "england") 
     ) +
 
