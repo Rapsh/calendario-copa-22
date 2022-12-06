@@ -120,6 +120,6 @@ document.querySelector("#game-results").innerHTML =
     createGame("brazil", 4,1, "southk") 
     )+
     createCard("06/12", "terça",
-    createGame("morocco", 0,0,  "spain") +
+    createGame("morocco", 3,0,  "spain") +
     createGame("portugal", 0,0, "switzerland") 
     ) 
